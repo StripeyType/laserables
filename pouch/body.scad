@@ -5,14 +5,14 @@ difference() {
         resize([48,20])
           circle(r=20);
     }
-  for (offset = [2:2:200]) {
-    translate([2,offset]) {
-      circle(r=0.125);
+  for (offset = [3:3:201]) {
+    translate([3,offset]) {
+      circle(r=0.175);
     }
   }
-  for (offset = [2:2:200]) {
-    translate([46,offset]) {
-      circle(r=0.125);
+  for (offset = [3:3:201]) {
+    translate([45,offset]) {
+      circle(r=0.175);
     }
   }
 }
