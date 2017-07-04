@@ -7,12 +7,12 @@ difference() {
     }
   for (offset = [3:3:93]) {
     translate([3,offset]) {
-      circle(r=0.175);
+      circle(r=0.3);
     }
   }
   for (offset = [3:3:93]) {
     translate([19,offset]) {
-      circle(r=0.175);
+      circle(r=0.3);
     }
   }
   holes = [
@@ -24,7 +24,7 @@ difference() {
   ];
   for (i = [0:8]) {
     translate(holes[i]) {
-      circle(r=0.175);
+      circle(r=0.3);
     }
   }
 }
